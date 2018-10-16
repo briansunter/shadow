@@ -1,7 +1,7 @@
-# Reagent with shadow-cljs
+# Reagent shadow-cljs test
 
-This is a minimal setup for using Reagent with shadow-cljs. It supports
-production builds and live-reloading.
+Can I easily import and use an arbitrary react component?
+This one tries to use http://reactdesktop.js.org/
 
 ## Getting started
 

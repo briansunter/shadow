@@ -1,13 +1,17 @@
 {
+  "homepage": "http://briansunter.github.io/shadow",
   "private": true,
   "scripts": {
     "dev": "shadow-cljs watch app",
-    "release": "shadow-cljs release app"
+      "release": "shadow-cljs release app",
+      "deploy" : "gh-pages -d public"
   },
   "dependencies": {
     "create-react-class": "^15.6.3",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "gh-pages": "^2.0.1",
+    "react": "^16.5.2",
+    "react-desktop": "^0.3.7",
+    "react-dom": "^16.5.2"
   },
   "devDependencies": {
     "shadow-cljs": "^2.4.22"
